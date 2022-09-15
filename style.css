@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #27373B;
+    width: 100%;
+    padding-right: 7%;
+}
+
+.logo{
+    width: 120px;
+    margin-left: 40px;
+}
+
+.logoytexto{
+    display: flex;
+    align-items: center;
+}
+nav p{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+}
+
+nav ul li {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+nav ul li span{
+    color: green;
+}
+
+
+ /*about*/
+.about{
+    background: rgba(0, 0, 0, 0.7) url(./Images/ba1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width:100%;
+    height:700px;
+    background-blend-mode: darken;
+}
+.about h1{
+    color: #fff;
+    text-align: end;
+    margin-right: 20%;
+    padding-top:20% ;
+}
+.about p{
+    color: #fff;
+    padding-left: 50%;
+    margin-right: 20%;
+    padding-top:2%;
+    line-height:180%;
+}
+
+#btns{
+    margin-top: 3%;
+    padding-left: 50%;
+}
+#btn1,
+.btn3{
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #3498db;
+    background-color: transparent;
+    height: 40px;
+    width: 140px;
+    border-color: #fff;
+    border-radius: 10px;
+    font-weight: 500;
+}
+#btn2{
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #3498db;
+    background-color: #2c6938;
+    height: 40px;
+    width: 140px;
+    border-color: #fff;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+ /*Orators*/
+ .pp{
+   text-align: center;
+   color: rgb(175, 175, 175);
+ }
+ 
+ .presentation span{
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-weight: 700;
+  }
+
+ .imagesorators{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 10%;
+ }
+ .imagesorators img{
+    width: 65%;
+    border-radius: 5px;
+ }
+ .imagesorators p{
+    width: 65%;
+    text-align: justify;
+    color:rgb(175, 175, 175);
+    margin-bottom: 40px;
+ }
+ .JSyReact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 28%;
+    margin-right: 2%;
+ }
+
+.JS{
+    width: fit-content;
+    padding: 3% 3%;
+    border-radius: 10px;
+    background-color: gold;
+    color: rgb(6, 6, 6);
+}
+
+.React{
+    width: fit-content;
+    padding: 3% 3%;
+    border-radius: 10px;
+    background-color: rgb(129, 180, 228);
+    color: rgb(243, 243, 243);
+}
+.startups{
+    width: fit-content;
+    padding: 2% 2%;
+    border-radius: 10px;
+    background-color: rgb(175, 113, 113);
+    color: rgb(243, 243, 243);
+}
+.Negocios{
+    width: fit-content;
+    padding: 2% 2%;
+    border-radius: 10px;
+    background-color: rgb(103, 103, 103);
+    color: rgb(243, 243, 243);
+}
+
+/*Playa y descripción*/
+.buenos-aires{
+    display: inline-flex;
+    align-items: stretch;
+}
+.imagenplaya img{
+    display: flex;
+    width: 80%;
+}
+.descripcion-imagen{
+    background-color: #27373B;
+    margin-left: -185px;
+    padding: 20px 20px;
+}
+.descripcion-imagen p,
+h3{ 
+    color: rgb(243, 243, 243);
+    line-height: 180%;
+    margin-bottom: 15px;
+}
+
+/*Convertite en orador*/
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 400px;
+}
+.contact h2{
+    margin: 10px;
+}
+
+.contact span{
+    text-decoration: underline;
+}
+
+.cajas{
+    margin: 10px;
+}
+.cajas input{
+    width: 300px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+}
+.cajas textarea{
+    width: 600px;
+    margin: 5px;
+    border: none;
+}
+.btn4{
+    color: #fff;
+    background-color: #96C93E;
+    width: 601px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*Footer*/
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1D506D;
+    color: #fff;
+    padding: 40px 40px;
+}
